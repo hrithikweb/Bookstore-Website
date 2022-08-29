@@ -1,0 +1,12 @@
+CREATE DATABASE Task5;
+
+USE Task5;
+
+CREATE TABLE users(
+userid INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(50),
+profile VARCHAR(500),
+image VARCHAR(100)
+);
+
+SELECT * FROM users;
